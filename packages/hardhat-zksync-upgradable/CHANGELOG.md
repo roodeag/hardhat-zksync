@@ -1,5 +1,23 @@
 # @matterlabs/hardhat-zksync-upgradable
 
+## [1.5.0](https://github.com/roodeag/hardhat-zksync/compare/@matterlabs/hardhat-zksync-upgradable-v1.4.0...@matterlabs/hardhat-zksync-upgradable-v1.5.0) (2024-04-22)
+
+
+### Features
+
+* bump hardhat-zksync-deploy and hardhat-zksync-solc dependencies… ([#840](https://github.com/roodeag/hardhat-zksync/issues/840)) ([b570877](https://github.com/roodeag/hardhat-zksync/commit/b570877c78c74f3c88c7e62498e5f477d4ada616))
+* bump hardhat-zksync-deploy dependency version ([#990](https://github.com/roodeag/hardhat-zksync/issues/990)) ([76362bf](https://github.com/roodeag/hardhat-zksync/commit/76362bf435a2af5294a9106370f9c9faaaccdd17))
+* introducing a new tasks to compile,deploy and upgrade contracts ([#989](https://github.com/roodeag/hardhat-zksync/issues/989)) ([44efdbb](https://github.com/roodeag/hardhat-zksync/commit/44efdbb5aff55af1a8f7ab0cf514c2a88a042db4))
+
+
+### Bug Fixes
+
+* add factory deps for implementation deployment ([#756](https://github.com/roodeag/hardhat-zksync/issues/756)) ([65df2c2](https://github.com/roodeag/hardhat-zksync/commit/65df2c21a5446f46a32cebf4bb450385c04b0086))
+* add no compile flag propagation ([#720](https://github.com/roodeag/hardhat-zksync/issues/720)) ([2cdc982](https://github.com/roodeag/hardhat-zksync/commit/2cdc982e31f6816feecc585e57354c08800b44d6))
+* add support for sepolia and zksync era test node ([#705](https://github.com/roodeag/hardhat-zksync/issues/705)) ([d2ab4aa](https://github.com/roodeag/hardhat-zksync/commit/d2ab4aa6f469e4ecb7531f516b38c1f64bf0ca6f))
+* remove unnecessary devDependencies, remove hardhat-zksync-deploy import from index.ts ([#870](https://github.com/roodeag/hardhat-zksync/issues/870)) ([8955d34](https://github.com/roodeag/hardhat-zksync/commit/8955d3481c48b8fbe0034485e7b675cee57d7455))
+* set valid fromBlock filter to check creation tx hash from the logs ([#975](https://github.com/roodeag/hardhat-zksync/issues/975)) ([d381d11](https://github.com/roodeag/hardhat-zksync/commit/d381d1182ded014339c247d21bc586a1cb9623de))
+
 ## [1.4.0](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-upgradable-v1.3.1...@matterlabs/hardhat-zksync-upgradable-v1.4.0) (2024-04-04)
 
 
