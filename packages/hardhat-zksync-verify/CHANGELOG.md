@@ -1,5 +1,21 @@
 # @matterlabs/hardhat-zksync-verify
 
+## [1.5.0](https://github.com/roodeag/hardhat-zksync/compare/@matterlabs/hardhat-zksync-verify-v1.4.2...@matterlabs/hardhat-zksync-verify-v1.5.0) (2024-04-22)
+
+
+### Features
+
+* bump hardhat-zksync-deploy and hardhat-zksync-solc dependencies… ([#840](https://github.com/roodeag/hardhat-zksync/issues/840)) ([b570877](https://github.com/roodeag/hardhat-zksync/commit/b570877c78c74f3c88c7e62498e5f477d4ada616))
+
+
+### Bug Fixes
+
+* add missing setting properties to support isSystem and forceEvml… ([#965](https://github.com/roodeag/hardhat-zksync/issues/965)) ([b32243a](https://github.com/roodeag/hardhat-zksync/commit/b32243a8bf4bf8fe71b81359a99cf9bd06117e4a))
+* call fallback verification with full source codes when BE throws… ([#968](https://github.com/roodeag/hardhat-zksync/issues/968)) ([bfe86f2](https://github.com/roodeag/hardhat-zksync/commit/bfe86f24a22b6dcd0a2286d33fc450adb0bcc2bc))
+* remove zksync-ethers dependency ([#876](https://github.com/roodeag/hardhat-zksync/issues/876)) ([5964e3f](https://github.com/roodeag/hardhat-zksync/commit/5964e3f35550bb14ddb50ca019e60d4b24d636d5))
+* send to verify service compiler input settings ([#854](https://github.com/roodeag/hardhat-zksync/issues/854)) ([1452e2e](https://github.com/roodeag/hardhat-zksync/commit/1452e2e8db22d399a9142c07ea38ca7ce5fea697))
+* update deploy cache logic with script load path support for windows ([#865](https://github.com/roodeag/hardhat-zksync/issues/865)) ([c30e276](https://github.com/roodeag/hardhat-zksync/commit/c30e276903e97b12283bb742659e513bdb9dafe6))
+
 ## [1.4.2](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-verify-v1.4.1...@matterlabs/hardhat-zksync-verify-v1.4.2) (2024-04-03)
 
 
