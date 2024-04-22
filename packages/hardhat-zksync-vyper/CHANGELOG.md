@@ -1,5 +1,13 @@
 # @matterlabs/hardhat-zksync-vyper
 
+## [1.0.9](https://github.com/roodeag/hardhat-zksync/compare/@matterlabs/hardhat-zksync-vyper-v1.0.8...@matterlabs/hardhat-zksync-vyper-v1.0.9) (2024-04-22)
+
+
+### Bug Fixes
+
+* set zkvyper compiler version for specified compiler path ([#817](https://github.com/roodeag/hardhat-zksync/issues/817)) ([293dfba](https://github.com/roodeag/hardhat-zksync/commit/293dfba9287ab94400a954784093a2b5720ca716))
+* support new naming for proxy at forwarder contracts ([#809](https://github.com/roodeag/hardhat-zksync/issues/809)) ([1e31289](https://github.com/roodeag/hardhat-zksync/commit/1e31289d3011f5e71a843455a12ba1062f1d6050))
+
 ## [1.0.8](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-vyper-v1.0.7...@matterlabs/hardhat-zksync-vyper-v1.0.8) (2024-02-26)
 
 
