@@ -1,5 +1,17 @@
 # @matterlabs/hardhat-zksync-node
 
+## [1.1.0](https://github.com/roodeag/hardhat-zksync/compare/@matterlabs/hardhat-zksync-node-v1.0.3...@matterlabs/hardhat-zksync-node-v1.1.0) (2024-04-22)
+
+
+### Features
+
+* get release tag from redirect url at node plugin ([#668](https://github.com/roodeag/hardhat-zksync/issues/668)) ([5d53b27](https://github.com/roodeag/hardhat-zksync/commit/5d53b270428fc3bd7a6338d0bab38a7f52d485d1))
+
+
+### Bug Fixes
+
+* properly constructor fork arguments ([#927](https://github.com/roodeag/hardhat-zksync/issues/927)) ([bfe8970](https://github.com/roodeag/hardhat-zksync/commit/bfe897019bae72abd1ae0f3d6f69c2c4bb6038cd))
+
 ## [1.0.3](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-node@1.0.2...@matterlabs/hardhat-zksync-node-v1.0.3) (2024-03-21)
 
 
