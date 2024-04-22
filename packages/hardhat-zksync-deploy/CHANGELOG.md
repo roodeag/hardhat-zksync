@@ -1,5 +1,20 @@
 # @matterlabs/hardhat-zksync-deploy
 
+## [1.4.0](https://github.com/roodeag/hardhat-zksync/compare/@matterlabs/hardhat-zksync-deploy-v1.3.0...@matterlabs/hardhat-zksync-deploy-v1.4.0) (2024-04-22)
+
+
+### Features
+
+* introducing a new deploy-zksync:contract task to compile and deploy one contract ([#987](https://github.com/roodeag/hardhat-zksync/issues/987)) ([7f983e2](https://github.com/roodeag/hardhat-zksync/commit/7f983e2dbc28b072901403e0f375ef798716129e))
+* support for scripts tags, order, integrated deployer inside HRE ([#762](https://github.com/roodeag/hardhat-zksync/issues/762)) ([a6b7828](https://github.com/roodeag/hardhat-zksync/commit/a6b7828cd390087f426c97439eb1a2aeb686cf95))
+
+
+### Bug Fixes
+
+* set forceDeploy to true as a default value ([#848](https://github.com/roodeag/hardhat-zksync/issues/848)) ([326b94f](https://github.com/roodeag/hardhat-zksync/commit/326b94f3192ae1177f5b92c186c458df246f865e))
+* support for non-inline libraries 'export default' expressions and zksolc is not reqired for config update ([#853](https://github.com/roodeag/hardhat-zksync/issues/853)) ([dbfe6af](https://github.com/roodeag/hardhat-zksync/commit/dbfe6af0590d85da877a6f541244492fc0efcb67))
+* update deploy cache logic with script load path support for windows ([#865](https://github.com/roodeag/hardhat-zksync/issues/865)) ([c30e276](https://github.com/roodeag/hardhat-zksync/commit/c30e276903e97b12283bb742659e513bdb9dafe6))
+
 ## [1.3.0](https://github.com/matter-labs/hardhat-zksync/compare/@matterlabs/hardhat-zksync-deploy-v1.2.1...@matterlabs/hardhat-zksync-deploy-v1.3.0) (2024-04-04)
 
 
